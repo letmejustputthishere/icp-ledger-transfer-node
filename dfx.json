@@ -1,0 +1,18 @@
+{
+  "canisters": {
+    "icrc1_ledger_canister": {
+      "type": "custom",
+      "candid": "https://raw.githubusercontent.com/dfinity/ic/3c76b9142f67da01393d9280c705f88b6e522a93/rs/ledger_suite/icrc1/ledger/ledger.did",
+      "wasm": "https://download.dfinity.systems/ic/3c76b9142f67da01393d9280c705f88b6e522a93/canisters/ic-icrc1-ledger.wasm.gz",
+      "init_arg_file": "init-args.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
